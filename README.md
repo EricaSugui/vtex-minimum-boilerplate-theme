@@ -1,0 +1,1 @@
+# vtex-minimum-boilerplate-theme
