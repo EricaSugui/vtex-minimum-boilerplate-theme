@@ -1,0 +1,34 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": { 
+    "children": [
+      "image",
+      "rich-text"
+    ]
+  },
+  "image": {
+    "props": {
+      "width": 100,
+      "src": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/c4cab30c-7c91-46ac-8acd-884c1ff8cc5a___5b703e37b75f331a85f779d7b39212c7.png"
+    }
+  },
+  "rich-text": {
+    "props": {
+      "text": "Footis ou rodapésis",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  }
+}
