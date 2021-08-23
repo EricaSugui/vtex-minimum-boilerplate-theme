@@ -189,6 +189,7 @@
     },
     "children": [
       "vtex.store-components:product-name",
+      "product-rating-inline",
       "product-price#product-details",
       "sku-selector",
       "countdown",

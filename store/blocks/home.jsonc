@@ -1,22 +1,23 @@
 {
   "store.home": { 
     "blocks": [
-      "tab-layout#home",
+      "tab-layout#home"
       // "slider-layout#home",
-      "search-result-layout.customQuery#home"
-    ]
-  },
-  "search-result-layout.customQuery#home": {
-    "props": {
-      "querySchema": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip",
-        "maxItemsPerPage": 2
-      }
-    },
-    "blocks": [
-      "search-result-layout.desktop"
+      // "search-result-layout.customQuery#home"
     ]
   }
+  // ,
+  // "search-result-layout.customQuery#home": {
+  //   "props": {
+  //     "querySchema": {
+  //       "skusFilter": "FIRST_AVAILABLE",
+  //       "simulationBehavior": "skip",
+  //       "maxItemsPerPage": 2
+  //     }
+  //   },
+  //   "blocks": [
+  //     "search-result-layout.desktop"
+  //   ]
+  // }
 
 }

@@ -19,6 +19,10 @@
   background-color: rgb(59, 55, 55);
   border-color: rgb(59, 55, 55);
 }
+:global(.vtex-button):focus {
+  background-color: rgb(39, 31, 31);
+  border-color: rgb(59, 55, 55);
+}
 :global(.vtex-button):hover {
   background-color: #212121;
   border-color:#212121;
@@ -29,4 +33,28 @@
 .busca{
     background-color: #000;
   }
-
+:global(.vtex-search-result-3-x-gallery){ max-width:900px; margin: auto;}
+.productBrand {
+  color: rgb(28, 212, 111);
+}
+:global(.vtex-input__label) {
+  color: rgb(28, 212, 111);
+}
+:global(.vtex-address-form__postalCode-forgottenURL) {
+  color: rgb(28, 212, 111);
+}
+.currencyCode {
+  color: rgb(28, 212, 111);
+}
+.currencyInteger {
+  color: rgb(28, 212, 111);
+}
+.currencyDecimal {
+  color: rgb(28, 212, 111);
+}
+.currencyFraction {
+  color: rgb(28, 212, 111);
+}
+.installmentsPrice {
+  color: rgb(28, 212, 111);
+}

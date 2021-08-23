@@ -1,15 +1,28 @@
 {
   "search-result-layout.customQuery#home": {
+    // "props": {
+    //   "querySchema": {
+    //     "skusFilter": "FIRST_AVAILABLE",
+    //     "simulationBehavior": "skip",
+    //     "maxItemsPerPage": 2
+    //   }
     "props": {
       "querySchema": {
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
-        "maxItemsPerPage": 2
+        "maxItemsPerPage": 8,
+        "hideUnavailableItems": true,
+        "queryField": "kit-upmedal/signos",
+        "mapField": ""
       }
     },
-    "blocks": [
-      "search-result-layout.desktop"
-    ]
+    // "blocks": [
+    //   "search-result-layout.desktop"
+    // ]
+     "blocks": [
+       "search-result-layout.desktop#lp"
+      //  "search-result-layout.mobile"
+     ]
   },
   "search-result-layout.desktop#lp": {
     "children": [
@@ -52,19 +65,21 @@
   ,
   "product-summary.shelf#lp": {
     "children": [
-      "product-summary-name"
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-image"
     ]
   },
 
-  "search-result-layout.customQuery#signos": {
+  "search-result-layout.customQuery#promo": {
     "props": {
        "querySchema": {
          "skusFilter": "FIRST_AVAILABLE",
          "simulationBehavior": "skip",
          "maxItemsPerPage": 8,
          "hideUnavailableItems": true,
-         "queryField": "kit-upmedal/signos",
-         "mapField": "fq"
+         "queryField": "kit-upmedal/promocao",
+         "mapField": ""
        }
      },
      "blocks": [
@@ -97,6 +112,70 @@
          "hideUnavailableItems": true,
          "queryField": "palmeiras",
          "mapField": ""
+       }
+     },
+     "blocks": [
+       "search-result-layout.desktop#lp"
+      //  "search-result-layout.mobile"
+     ]
+   },
+   "search-result-layout.customQuery#signos": {
+    "props": {
+       "querySchema": {
+         "skusFilter": "FIRST_AVAILABLE",
+         "simulationBehavior": "skip",
+         "maxItemsPerPage": 8,
+         "hideUnavailableItems": true,
+         "queryField": "kit-upmedal/signos",
+         "mapField": "fq"
+       }
+     },
+     "blocks": [
+       "search-result-layout.desktop#lp"
+      //  "search-result-layout.mobile"
+     ]
+   },
+  //  "search-result-layout.customQuery#divertidos": {
+  //   "props": {
+  //      "querySchema": {
+  //        "skusFilter": "FIRST_AVAILABLE",
+  //        "simulationBehavior": "skip",
+  //        "maxItemsPerPage": 8,
+  //        "hideUnavailableItems": true,
+  //        "queryField": "kit-upmedal/divertidos",
+  //        "mapField": "fq"
+  //      }
+  //    },
+  //    "blocks": [
+  //      "search-result-layout.desktop#lp"
+  //     //  "search-result-layout.mobile"
+  //    ]
+  //  },
+  //  "search-result-layout.customQuery#7maravilhas": {
+  //   "props": {
+  //      "querySchema": {
+  //        "skusFilter": "FIRST_AVAILABLE",
+  //        "simulationBehavior": "skip",
+  //        "maxItemsPerPage": 8,
+  //        "hideUnavailableItems": true,
+  //        "queryField": "kit-upmedal/7maravilhas",
+  //        "mapField": "fq"
+  //      }
+  //    },
+  //    "blocks": [
+  //      "search-result-layout.desktop#lp"
+  //     //  "search-result-layout.mobile"
+  //    ]
+  //  },
+   "search-result-layout.customQuery#guerreiros": {
+    "props": {
+       "querySchema": {
+         "skusFilter": "FIRST_AVAILABLE",
+         "simulationBehavior": "skip",
+         "maxItemsPerPage": 8,
+         "hideUnavailableItems": true,
+         "queryField": "kit-upmedal/guerreiros",
+         "mapField": "fq"
        }
      },
      "blocks": [
