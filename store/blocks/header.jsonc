@@ -33,12 +33,11 @@
       "minicart.v2"
     ]
   },
-  // "search-bar": {
-  //   "props": {
-  //     "blockClass": "--near-black",
-  //     "fullWidth": true
-  //   }
-  // },
+  "search-bar": {
+    "props": {
+      "blockClass": "busca"
+    }
+  },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"

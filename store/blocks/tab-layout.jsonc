@@ -3,6 +3,7 @@
         "children": [
           "tab-list#home",
           "tab-content#home"
+          // "search-result-layout.customQuery#tab"
         ]
       },
       "tab-list#home": {
@@ -62,6 +63,7 @@
           "label": "Guerreiros"
         }
       },
+    
       "tab-content#home": {
         "children": [
           "tab-content.item#home1",
@@ -70,6 +72,7 @@
       },
       "tab-content.item#home1": {
         "children": [
+          // "search-result-layout.customQuery#home"
           "rich-text#1"
         ],
         "props": {

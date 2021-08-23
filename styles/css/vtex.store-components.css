@@ -3,3 +3,30 @@
 .tabWrapper {
   background-color: #000;
 }
+.searchBarContainer{
+  background-color: rgb(59, 55, 55);
+}
+
+.searchBarInnerContainer{
+  background-color: rgb(59, 55, 55);
+}
+
+.autoCompleteOuterContainer{
+  background-color: rgb(59, 55, 55);
+}
+
+:global(.vtex-button) {
+  background-color: rgb(59, 55, 55);
+  border-color: rgb(59, 55, 55);
+}
+:global(.vtex-button):hover {
+  background-color: #212121;
+  border-color:#212121;
+} 
+:global(.vtex-button__label){
+  color: #fff
+}
+.busca{
+    background-color: #000;
+  }
+
