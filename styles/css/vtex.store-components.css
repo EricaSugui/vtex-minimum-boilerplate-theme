@@ -33,6 +33,12 @@
 .busca{
     background-color: #000;
   }
+/* .figure{
+    opacity: 0;
+    max-height: 100%;
+    display:none;
+} */
+
 :global(.vtex-search-result-3-x-gallery){ max-width:900px; margin: auto;}
 .productBrand {
   color: rgb(28, 212, 111);

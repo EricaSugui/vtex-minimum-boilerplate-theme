@@ -67,8 +67,25 @@
     "children": [
       "product-summary-name",
       "product-rating-inline",
-      "product-summary-image"
+      "product-images",
+      "vtex.product-highlights@2.x:product-highlights"
     ]
+  },
+  "product-images#lp": {
+    "props": {
+      "showNavigationArrows":true,
+      "showPaginationArrows":true,
+      "thumbnailMaxHeight": 1,
+      "blockClass": "thumbzera"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "Me salva"
+    }
   },
 
   "search-result-layout.customQuery#promo": {
